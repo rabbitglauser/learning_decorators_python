@@ -26,3 +26,6 @@ def do_something(param: str):
 
 if __name__ == '__main__':
     do_something('hello')
+
+    print(do_something.__name__)
+    print(do_something.__doc__)
